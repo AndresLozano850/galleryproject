@@ -14,20 +14,20 @@ import Navigation from './components/Navigation';
 function App() {
   return (
     <Router>
-       <div className='container'>
+      <div className='container'>
         <h1 id="title" className='text-center my-3'>Galeria Razas de Perros</h1>
       </div>
       <Routes>
-        <Route path='/bichon_maltes' Component={Bichon_maltes}/>
-        <Route path='/bulldog' Component={Bulldog}/>
-        <Route path='/chihuahua' Component={Chihuahua}/>
-        <Route path='/chow_chow' Component={Chow_chow}/>
-        <Route path='/cocker_spaniel' Component={Cocker_spaniel}/>
-        <Route path='/doberman' Component={Doberman}/>
-        <Route path='/golden_retriever' Component={Golden_retriever}/>
-        <Route path='/husky_siberiano' Component={Husky_siberiano}/>
-        <Route path='/labrador' Component={Labrador}/>
-        <Route path='/schnauzer' Component={Schnauzer}/>
+        <Route path='/bichon_maltes' element={<Bichon_maltes className="image-size" />}/>
+        <Route path='/bulldog' element={<Bulldog className="image-size" />}/>
+        <Route path='/chihuahua' element={<Chihuahua className="image-size" />}/>
+        <Route path='/chow_chow' element={<Chow_chow className="image-size" />}/>
+        <Route path='/cocker_spaniel' element={<Cocker_spaniel className="image-size" />}/>
+        <Route path='/doberman' element={<Doberman className="image-size" />}/>
+        <Route path='/golden_retriever' element={<Golden_retriever className="image-size" />}/>
+        <Route path='/husky_siberiano' element={<Husky_siberiano className="image-size" />}/>
+        <Route path='/labrador' element={<Labrador className="image-size" />}/>
+        <Route path='/schnauzer' element={<Schnauzer className="image-size" />}/>
       </Routes>
       <Navigation />
     </Router>
