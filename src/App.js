@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
        <div className='container'>
-        <h1 id="title" className='text-center my-3'>Galleria Razas de Perros</h1>
+        <h1 id="title" className='text-center my-3'>Galeria Razas de Perros</h1>
       </div>
       <Routes>
         <Route path='/bichon_maltes' Component={Bichon_maltes}/>
