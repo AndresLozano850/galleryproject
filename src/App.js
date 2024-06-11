@@ -14,6 +14,9 @@ import Navigation from './components/Navigation';
 function App() {
   return (
     <Router>
+       <div className='container'>
+        <h1 id="title" className='text-center my-3'>Galleria Razas de Perros</h1>
+      </div>
       <Routes>
         <Route path='/bichon_maltes' Component={Bichon_maltes}/>
         <Route path='/bulldog' Component={Bulldog}/>

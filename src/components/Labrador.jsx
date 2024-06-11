@@ -2,8 +2,8 @@ import React from 'react'
 import labrador1 from '../images/labrador.jpg'
 const Labrador = () => {
   return (
-    <div>
-        <img src={labrador1} alt="Labrador" />
+    <div className="container">
+        <img src={labrador1} alt="Labrador" className="image"/>
     </div>
   )
 }
